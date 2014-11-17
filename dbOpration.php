@@ -2,10 +2,6 @@
 
 include("serverInfo.php");
 
-//$host = $_POST['hostName'];  // Host Address, Ex: xxx.xxx.x.xx
-//$user = $_POST['userName'];  // Database User Name, Ex: xxxxx 
-//$pass = $_POST['pass'];  // Database Password, Ex: xxxxx
-//$db = $_POST['dbName'];    // Database Name, Ex: xxxxx
 $queryData = $_POST['dbQuery'];   // Database Query, Ex: select * from tableName
 $queryType = $_POST['queryType'];  // Specify Query Type, Ex: I|U|D|S
 
